@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.sh_t 
+	{
+	background: url(images/shadow_t.png); 
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/shadow_t.png, sizingMethod='scale');
+	}
+.sh_r 
+	{
+	background-image:url(images/shadow_r.png); 
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/shadow_r.png, sizingMethod='scale');
+	}
+.sh_b 
+	{
+	background-image:url(images/shadow_b.png); 
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/shadow_b.png, sizingMethod='scale');
+	}
+.sh_l 
+	{
+	background-image:url(images/shadow_l.png); 
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/shadow_l.png, sizingMethod='scale');
+	}
+.sh_t_l 
+	{
+	background-image:url(images/shadow_t_l.png);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/shadow_t_l.png, sizingMethod='scale');
+	height: 30px;
+	width: 30px;
+	}
+.sh_t_r 
+	{
+	background-image:url(images/shadow_t_r.png);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/shadow_t_r.png, sizingMethod='scale');
+	height: 30px;
+	width: 30px;
+	}
+.sh_b_l 
+	{
+	background-image:url(images/shadow_b_l.png);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/shadow_b_l.png, sizingMethod='scale');
+	height: 30px;
+	width: 30px;
+	}
+.sh_b_r 
+	{
+	background-image:url(images/shadow_b_r.png);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/shadow_b_r.png, sizingMethod='scale');
+	height: 30px;
+	width: 30px;
+	}
+	
+.sh_t, .sh_r, .sh_b, .sh_l, .sh_t_l, .sh_t_r, .sh_b_l, .sh_b_r 
+	{
+	//background: none; 
+	}
+
+
+.transp_back 
+	{
+	background: url(images/transparent_bl_90.png); 
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/transparent_bl_90.png, sizingMethod='scale');
+	}	
+
+	
+.transp_back_white 
+	{
+	background: url(images/transparent_white_90.png); 
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/transparent_white_90.png, sizingMethod='scale');
+	}
+	
+.top_bar_l
+	{
+	background: url(images/topbar_l.png);
+
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/topbar_l.png, sizingMethod='none');
+	}
+	
+.top_bar_r
+	{
+	background: url(images/topbar_r.png);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/topbar_r.png, sizingMethod='none');
+	
+	}
+		
+.transp_back_white, .transp_back, .top_bar_l, .top_bar_r
+	{
+	//background: none; 
+	}
+	
+.img_border 
+	{
+	border: 2px solid #FFFFFF;
+	}

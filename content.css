@@ -1,0 +1,244 @@
+A	{
+	color: #000000;
+	}
+A img	{
+	border: none;
+	}
+
+.image_brd  {
+	border: none;
+	}
+
+body {
+	margin: 0px;
+	}
+	#center_content
+{
+	padding-left: 40px;	
+}
+#container_menu_positions {
+	position: relative;
+	width: 670px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	}
+#container_menu {
+	height: 50px;
+	width: 620px;
+	background-image: url(images/menu_back.png);
+	padding-top: 35px;
+	padding-left: 50px;
+	background-repeat: no-repeat;	
+	}
+.txt_12_box_gray {
+	position: relative;
+	width: 670px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	}
+#container_language {
+	background-image: url(images/language_back.png);
+	height: 45px;
+	width: 100px;
+	position: absolute;
+	left: 680px;
+	top: 10px;
+	padding-top: 25px;
+	padding-left: 35px;
+	}
+.txt_title_24 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	}
+.txt_title_18 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	}
+.txt_12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	}
+.txt_18_violet {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #622F82;
+	}
+.txt_14_news {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	}
+.txt_14_news a {
+	text-decoration: none;
+	}
+.txt_12_gray {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #777777;
+	}
+	
+.txt_indx_red  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #C33036;
+	font-weight: bold;
+	}
+.txt_indx_violet  {
+	color: #622F82;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	}
+.txt_violet_bold  {
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	}
+.txt_12_back_gray {
+	font-size: 12px;
+	font-weight: normal;
+	background-color: #E6E6E6;
+	padding: 10px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	}
+.txt_data {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	color: #663399;
+	text-align: center;
+
+	}
+.txt_month {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #663399;
+	text-align: center;
+	}
+#comp_section {
+	top: 250px;
+	position: relative;
+	text-align: right;
+	margin-right: 5px;
+	}
+#schedule_data {
+	position: absolute;
+	left: -25%;
+	
+	}
+#img_flow {
+	float: left;
+	padding-right: 20px;
+	
+	
+	}	
+
+#program_back_viola {
+	background-image: url(images/program_back_viola.png);
+	}
+#program_back_piano {
+	background-image: url(images/program_back_piano.png);
+	}
+#program_back_vocal {
+	background-image: url(images/program_back_vocal.png);
+	}
+#program_back_violin {
+	background-image: url(images/program_back_violin.png);
+	}
+#program_back_piano_activ {
+	background-image: url(images/program_back_piano_activ.png);	
+	}
+#program_back_viola_activ {
+	background-image: url(images/program_back_viola_activ.png);
+	}
+#program_back_vocal_activ {
+	background-image: url(images/program_back_vocal_activ.png);
+	}
+#program_back_cello_activ {
+	background-image: url(images/program_back_cello_activ.png);
+	}
+#program_back_viola, #program_back_piano, #program_back_vocal, #program_back_violin, #program_back_viola_activ, #program_back_piano_activ, #program_back_vocal_activ, #program_back_cello_activ
+	{
+	background-repeat: no-repeat;
+	height: 47px;
+	width: 237px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 10px;
+	position: relative;
+	}
+#arrow_viola {
+	background-image: url(images/program_viola_arrov.png);
+	}
+#arrow_piano {
+	background-image: url(images/arrov_piano.png);
+	}
+#arrow_vocal {
+	background-image: url(images/program_vocal_arrov.png);
+	}
+#arrow_cello {
+	background-image: url(images/program_cello_arrov.png);
+	}
+#arrow_viola, #arrow_piano, #arrow_vocal, #arrow_cello{
+	position: absolute;
+	height: 47px;
+	width: 12px;
+	left: 225px;
+	top: 0px;
+	}
+.program_txt {
+	padding-top: 15px;
+	padding-left: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 16px;
+	}
+.program_txt a {
+	color: #FFFFFF;
+	text-decoration: none;
+	}
+.programme_requirements{
+	line-height: 25px;
+	}
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 26px;
+	font-weight: normal;
+	color: #663399;
+	display: inline;
+	}
+h3 {
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	display: inline;
+	}
+ul {
+	color: #663399;
+	font-weight: bold;
+	list-style-image: url(images/bullet.png);
+	}
+ol {
+	color: #663399;
+	font-weight: bold;
+	list-style-type: decimal;
+	}
+li {
+	color: #000000;
+	font-weight: normal;
+	}
+	
+hr {
+	color:#CC0000;
+	height:1px;
+	margin-top: 5px;
+	width: 500px;
+	background-color: #CC0000;
+}

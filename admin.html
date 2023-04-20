@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>Admin</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link href="flv/shadow.css" rel="stylesheet" type="text/css">
+<link href="classes.css" rel="stylesheet" type="text/css">
+<link href="flv/admin.css" rel="stylesheet" type="text/css">
+
+<script language="JavaScript" type="text/javascript">
+function check_form()
+{
+result=true;
+	if (!document.form1[0].value)
+	{	window.alert('Введите  Логин!');	document.getElementById('login').focus();	
+		 result=false;
+	}
+	if (!document.form1[1].value)
+	{	window.alert('Введите Пароль!');	document.getElementById('pass').focus();	
+		result=false;
+	}
+
+return result;
+}
+</script>
+
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="document.getElementById('login').focus();">
+<p><br>
+  <br>
+  <br>
+</p>
+<table  height="250" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="30" class="sh_t_l"></td>
+          <td width="321" class="sh_t"></td>
+          <td width="31" class="sh_t_r"></td>
+        </tr>
+        <tr>
+          <td class="sh_l"></td>
+          <td  align="center" valign="middle" bgcolor="#EFEFEF">
+		  <div>
+		  <form name="form1" method="post" action="flv/admin1.php" onSubmit="return check_form();"><br>
+		    <p><span class="text_title"></span><span class="text-12-black"><br>
+	  	    <br>
+	  	    Для доступа необходима авторизация</span>		  	</p>
+		    <table width="80%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="right"><span class="text-12-black">Логин</span></td>
+                <td width="10">&nbsp;</td>
+                <td align="left"><span class="text-12-black">
+                  <input name="login" type="text" class="text-12-black" id="login" size="20">
+                </span></td>
+              </tr>
+              <tr>
+                <td align="right">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td align="left">&nbsp;</td>
+              </tr>
+              <tr>
+                <td align="right"><span class="text-12-black" style="clear:left">Пароль </span></td>
+                <td>&nbsp;</td>
+                <td align="left"><span class="text-12-black" style="clear:left">
+                  <input name="pass" type="password" class="text-12-black" id="pass" size="20">
+                </span></td>
+              </tr>
+            </table>
+            <div id="login_pass" class="text-12-black" style="clear:left">  
+            <input name="Submit" type="submit" class="text-12-black" value="Войти">
+            </div>
+            </form></div>
+			</td>
+          <td class="sh_r"></td>
+        </tr>
+        <tr>
+          <td class="sh_b_l"></td>
+          <td class="sh_b"></td>
+          <td class="sh_b_r"></td>
+        </tr>
+</table>
+
+</body>
+</html>

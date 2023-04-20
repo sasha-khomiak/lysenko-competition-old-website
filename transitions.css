@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#box1, #box2, #box3, #box4
+{
+	height: 355px;
+	width: 160px;
+	
+	opacity: 0;
+
+	-webkit-transition-duration: 1s;
+	-webkit-transition-property: all;
+	-webkit-transition-timing-function: ease;
+	
+	-moz-transition-delay: 0s;
+	-moz-transition-duration: 2s;
+	-moz-transition-property: all;
+	-moz-transition-timing-function: ease;
+	
+}
+
+#box1
+{
+	-webkit-transition-delay: 0.5s;
+	-moz-transition-delay: 0.5s;
+	
+	background-image: url(images/viola_back.png);
+
+}
+#box2
+{
+	-webkit-transition-delay: 1s;
+	-moz-transition-delay: 1s;
+	background-image: url(images/piano_back.png);
+}
+#box3
+{
+	-webkit-transition-delay: 1.5s;
+	-moz-transition-delay: 1.5s;
+	background-image: url(images/vocal_back.png);
+}
+#box4
+{
+	-webkit-transition-delay: 2s;
+	-moz-transition-delay: 2s;
+	background-image: url(images/violin_back.png);
+}
+	

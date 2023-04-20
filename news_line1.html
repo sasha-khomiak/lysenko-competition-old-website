@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title></title>
+<style type="text/css">
+#anic {
+	position:relative;
+	padding:0px;
+	width:200px; /* height:100px; */
+	overflow:hidden;
+    background-color: #FFEBCD;
+}
+	#ani, #ani1 {
+		display:inline;
+		position:relative;
+	}
+</style>
+<script language="JavaScript" type="text/javascript">
+var timer, nPos = 0,
+    stop = false;
+
+function anistop() {
+    stop = true
+}
+function anirun() {
+    start()
+}
+function start() {
+    stop = false;
+    timer && window.clearInterval(timer);
+    document.getElementById("anic");
+    var a = document.getElementById("ani"),
+        b = document.getElementById("ani1"),
+        c = a.offsetWidth;
+    timer = setTimeout(function () {
+        a.style.left = b.style.left = nPos + "px";
+        nPos -= 2;
+        if (nPos < -c) nPos = 0;
+        stop || setTimeout(arguments.callee, 45)
+    }, 10)
+}
+window.onload = start;
+</script>
+</head>
+<body>
+<div id="anic" onmouseover="anistop()" onmouseout="anirun()">
+<pre id="ani">Много текста Много текста Много текста </pre><pre id="ani1">Много текста Много текста Много текста </pre>
+</div>
+</body>
+</html>

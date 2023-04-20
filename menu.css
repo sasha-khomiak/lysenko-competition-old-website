@@ -1,0 +1,153 @@
+.menu_txt
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+
+#menu_item
+{
+	float: left;
+	clear: right;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+#menu_item_first
+{
+	float: left;
+	clear: right;
+	padding-right: 10px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+#menu_item_last
+{
+	float: left;
+	clear: right;
+	padding-left: 10px;
+}
+#submenu {
+	position: absolute;
+
+	z-index:199;
+	width: 630px;
+	height:90px;
+	top: 50px;
+/*
+	border:#000000 solid 1px;
+*/
+}
+#submenu_hide {
+	position: absolute;
+
+	z-index:199;
+	width: 100%;
+	height:5px;
+	top: 140px;
+}
+#submenu li {
+	text-align: left;	
+	background: #fffff;
+	list-style-type:none;
+	border:#000000 solid 1px;
+}
+#submenu  a{
+	color: #000000;
+	text-decoration: none;
+	display: block;
+/*	height: 100%;*/
+	padding: 0px 0px; 
+}
+#submenu  a:hover{
+	background: #666666;
+	color: #FFFFFF;
+}
+
+#smenu1
+{
+	position: absolute;
+	float: left;
+	clear: right;
+
+	width:150px;
+	left:50px;
+	z-index:200;
+	display: none; 
+}
+#smenu2
+{
+	position:absolute;
+
+	float: left;
+	clear: right;
+	width:150px;
+	left:256px;
+	z-index:200;
+	display: none; 
+}
+#smenu3
+{
+	position:absolute;
+
+	float: left;
+	clear: right;
+	left:320px;
+	width:150px;
+	z-index:200;
+	display: none; 
+}
+#smenu4
+{
+	position:absolute;
+
+	float: left;
+	clear: right;
+	
+	left:412px;
+	width:150px;
+	z-index:200;
+	display: none; 
+}
+#smenu1 a,#smenu2 a ,#smenu3 a ,#smenu4 a 
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+
+	text-decoration: none;
+/*	text-align: left;*/
+	background: #fffff;
+	list-style-type:none;
+	padding: 2px 5px;
+
+}
+.ramka_menu
+{
+	border: #CCCCCC 1px solid;
+	background-color:#FFFFFF;
+}
+#smenu0
+{
+	position:absolute;
+	width:680px;
+	margin-left:100px;
+	margin-top:0px;
+	z-index:100;
+	height:380px;
+	display: block; 
+	border:#FF0000 solid 0px;
+	
+}
+.error_form {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:#FFCCCC;
+}
+.clear_form {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:#FFFFFF;
+}
+

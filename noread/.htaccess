@@ -1,0 +1,21 @@
+# SET Default Charset all pages
+AddDefaultCharset WINDOWS-1251
+
+#   Запрет на отображение содержимого каталога при отсутствии индексного файла
+Options -Indexes
+IndexIgnore *.php* *.pl *.jpg *.png *.gif
+
+php_value error_reporting 7
+
+#   Обработка ошибок
+ErrorDocument	404	http://www.competition.com.ua/404.html
+ErrorDocument	401	http://www.competition.com.ua/404.html
+ErrorDocument	403	http://www.competition.com.ua/404.html
+ErrorDocument	500	http://www.competition.com.ua/404.html
+
+
+# Запрет доступа к файлам из браузера
+<Files var_gallery.txt>
+order allow,deny
+deny from all
+</Files>
